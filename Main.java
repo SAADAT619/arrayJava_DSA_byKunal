@@ -20,9 +20,19 @@ System.out.println();
   for(int i=0; i<5; i++){
         System.out.print(arr[i]+ " ");
   }
+System.out.println();
+
+//array print using toString method
+System.out.println(Arrays.toString(arr));
 
           
-          
+//array of string or objects
+String[] str = new String[4];
+System.out.println("Enter string: ");
+      for(int i=0; i<str.length; i++){
+              str[i] = sc.next();
+      }
+System.out.println(Arrays.toString(str));
           
   }
 }
