@@ -9,8 +9,16 @@ System.out.println("Enter numbers: ");
           arr[i] = sc.nextInt();
   }
 
+// array print using for each loop
   for(int i: arr){
-          System.out.println(i);
+          System.out.print(i+ " ");
+          
+  }
+System.out.println();
+
+//array print using for loop
+  for(int i=0; i<5; i++){
+        System.out.print(arr[i]+ " ");
   }
 
           
