@@ -33,6 +33,11 @@ System.out.println("Enter string: ");
               str[i] = sc.next();
       }
 System.out.println(Arrays.toString(str));
+
+//modify
+str[1] = "Saadat";
+System.out.println(Arrays.toString(str));
+          
           
   }
 }
